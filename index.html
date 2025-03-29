@@ -1,28 +1,98 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D Crafts webpage</title>
-  </head>
-    <link rel="stylesheet" href="style.css"
-  <body> 
-   <center>
-    <img src="Titel.jpg" height="150" width="651"> <img src="mcpfp - D_Carft.jpg" width="150" height="150">
-    <br><br><br><p style="font-size: 20px; "> <strong style="font-size: 40px; color: rgb(255, 125, 125); background-color: white; 
-    border:solid; border-color:rgb(255, 125, 125); border-radius: 10px;">About me</strong><br><br>
-    Hi, I'm D Craft.<br> I'm currently building New York City and Hamburg in Minecraft.<br>
-    I have a lot more finished builds, which you can find on My YouTube channel.
-    <br> I've been playing Minecraft for 5 years, mostly creative. <br> 
-    I spent 1500 hours building and practising to build in Minecraft, this is where most of my expereince comes from. </p> <br>
-    <img src="YT Banner.jpg" width="546" height="303"><br> 
-    <a href="https://www.youtube.com/channel/UC8lZ4xJXQsc4TiE1TdHGKZg"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 43px; 
-    color: rgb(255, 125, 125);"> <ins>
-    Check out my YT channel </strong></ins></a>
-    <br> <br> <br> <br> <br> <br>
-    <h1><strong style="font-size: 40px; color: rgb(255, 125, 125); background-color: white; border:solid; border-color:rgb(255, 125, 125); border-radius: 10px;">
-    Some of my Minecraft builds</strong></h1>
-    <img src="Minecraft NYC.jpg" width="560" height="315"> <img src="Minecraft Leadenhall.jpg" width="225" height="315"> 
-    <img src="Minecraft Bundestag.jpg" width="225" height="315"> <img src="Minecraft Hamburg.jpg" width="560" height="315">
-    <img src="Minecraft Messeturm.jpg" width="225" height="315">
-  </center>
- </body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: rgb(231, 231, 231);
+            display: flex;
+            justify-content: center;
+            
+            height: 100vh;    
+        }
+        span {
+            
+            color: #fff;
+            font-family: 'Pixelify Sans';
+            text-transform: uppercase;
+            display: inline-block;
+            transform: rotateY(0deg);
+            transition: 0.5s;
+            animation: bounce 0.4s ease infinite alternate;
+            position: relative;
+        }
+        h1 span:nth-child(2) {
+            animation-delay: 0.1s;
+        }
+        h1 span:nth-child(3) {
+            animation-delay: 0.2s;
+        }
+        h1 span:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+        h1 span:nth-child(5) {
+            animation-delay: 0.6s;
+        }
+        h1 span:nth-child(6) {
+            animation-delay: 0.8s;
+        }
+        
+        @keyframes bounce {
+            100% {
+                top: -20px; 
+                text-shadow: 0 1px 0 #ccc,
+                             0 2px 0 #ccc,
+                             0 3px 0 #ccc,
+                             0 4px 0 #ccc,
+                             0 5px 0 #ccc,
+                             0 6px 0 #ccc,
+                             0 7px 0 #ccc,
+                             0 8px 0 #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+<center>    
+    <img src="Titel.jpg" height="150" width="651"> <img src="mcpfp - D_Carft.jpg" width="150" height="150"><br><br><br>
+
+    <h1 style="font-size: 100px;">
+        <span>H</span>
+        <span>E</span>
+        <span>L</span>
+        <span>L</span>
+        <span>O</span>
+    </h1>
+    <p style="font-size: 30px; color: rgb(255, 255, 255); text-shadow: 1px 3px 1px #ccc"> <strong style="font-size: 50px; color: rgb(255, 255, 255);">ABOUT ME</strong><br><br>
+        Hi, I'm D Craft.<br> I'm currently building New York City and Hamburg in Minecraft.<br>
+        I have a lot more finished builds, which you can find on My YouTube channel.
+        <br> I've been playing Minecraft for 5 jears, mostly creative. <br> 
+        I spent 1600 hours building and practising to build in Minecraft, this is where most of my expereince comes from. </p> <br>
+        
+        <img src="YT Banner.jpg" width="546" height="303"><br> 
+        <a href="https://www.youtube.com/channel/UC8lZ4xJXQsc4TiE1TdHGKZg"><strong style="font-family:Pixelify Sans; font-size: 44px; 
+        color: rgb(255, 255, 255); text-shadow: 1px 3px 1px #ccc;"> <ins>CHECK OUT MY YT CHANNEL
+        </strong></ins></a>
+        <br> <br> <br> <br> <br> <br>
+        
+        <h1><strong style="font-size: 50px; color: rgb(255, 255, 255); text-shadow: 1px 3px 1px #ccc ">
+        <span>SOME</span> 
+        <span>OF</span>
+        <span>MY</span> 
+        <span>MINECRAFT</span> 
+        <span>BUILDS</span> 
+        </strong></h1>
+        
+        <img src="Minecraft NYC.jpg" width="560" height="315"> <img src="Minecraft Leadenhall.jpg" width="225" height="315"> 
+        <img src="Minecraft Bundestag.jpg" width="225" height="315"> <img src="Minecraft Hamburg.jpg" width="560" height="315">
+        <img src="Minecraft Messeturm.jpg" width="225" height="315"> <br>
+        <p style="color: rgb(231, 231, 231);"> .</p>
+</center>
+</body>
 </html>
